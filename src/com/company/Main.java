@@ -1,7 +1,14 @@
 package com.company;
 
+import java.util.Random;
+
 public class Main {
     public static void main(String[] args) {
+        Random c = new Random();
+        int randomAge = c.nextInt(107)- 0;
+        System.out.println( " Случайное число " + randomAge);
+
+
         String name = "Наиль";
         int a = 18;
         int t = 34;
